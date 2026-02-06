@@ -15,6 +15,37 @@
 
 ---
 
+---
+
+## 구현 화면 (Demo)
+
+본 서비스는 “가격 적정도 분석”과 “조건 기반 탐색 추천” 두 흐름으로 구성되어 있습니다.  
+아래는 주요 서비스 화면입니다.
+
+### 1) 초기 화면
+<img width="1478" height="471" alt="image" src="https://github.com/user-attachments/assets/2b6007a2-85bf-435f-b024-95fde8d4640b" />
+
+
+> 서비스 진입 화면으로, 가격 적정도 분석과 추천/탐색 기능으로 이동할 수 있습니다.
+
+---
+
+### 2) 가격 적정도 분석 화면
+<img width="1908" height="847" alt="image" src="https://github.com/user-attachments/assets/310f0cf8-6304-4e58-9549-8215098c53a4" />
+
+
+> 선택한 모델군 내 유사 매물을 기반으로 기대가격을 산출하고, 분위수(Q1~Q3) 기준으로 가격 적정도를 판정합니다.
+
+---
+
+### 3) 추천 / 탐색 화면
+<img width="1911" height="836" alt="image" src="https://github.com/user-attachments/assets/3a501b26-bc66-4303-b004-89580dd41dcb" />
+
+
+> 예산·연식·주행거리 조건 기반 후보를 구성한 뒤, 환산주행거리와 가격 경쟁력을 반영한 가성비 점수로 추천합니다.
+
+---
+
 ## 1. 프로젝트 개요
 
 ### 1.1 프로젝트 요약
